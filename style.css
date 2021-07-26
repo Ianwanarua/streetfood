@@ -52,6 +52,9 @@
 .nav2 li{
   float: center;
 }
+.nav2 p{
+  font-size: 50px;
+}
 li a{
   display: block;
   color: black;
