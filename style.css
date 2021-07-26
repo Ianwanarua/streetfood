@@ -173,60 +173,90 @@ li a{
 
 }
 .part4{
+    position: relative;
+    width: 100%;
+    padding: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    align-items: center;
+    
+   
+}
+.pp4{
   position: relative;
   width: 100%;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 80px;
+  padding-top: 5px;
   align-items: center;
-  padding: 100px;
-  padding-top: 0px;
   padding-bottom: 10px;
+  
+  width: 100%;
   box-sizing: border-box;
-  margin-bottom: 10em;
-  background:#C9ECB5;
-
+  background: #C9ECB5;
   
 
 }
-.head4{
-  font-size: 35px;
-  color: black;
-  padding-bottom: 0em;
+#deals4{
   text-align: center;
+ font-size: 45px;
+  
+  padding-bottom: 0;
+  
+  margin-bottom: 0;
 }
-.hot4{
-  text-align: center;
-  padding-bottom: 50px;
-  margin-bottom: 0px;
-}
-.hot4 span{
-  color: #6CB840;
-
-}
-.text-part4{
-  text-align: center;
-  font-size: 20px;
-}
-.text-part4 h1{
-  font-size: 45px;
-  color: #6CB840;
+.hot4 .burgj{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  background: var(--color5);
+  margin: 5px;
   margin-bottom: 50px;
-}
-.img-4{
-  width: 300px;
-   height: 300px;
-  position: absolute;
-   top: 50px;
-
-   right: 85%;
+  width: 100%;
+  position: relative;
 }
 
-.burger4{
-  width: 300px;
-  height: 300px;
-   top: 80px;
-   bottom: -100px;
-   right: 82%;
 
-}.part5{
+
+.hot4 .burgj h2{
+ 
+ margin-bottom: 50px;
+ font-size: 40em;
+ color: #6CB840;
+}
+.hot4 .burgj h2{
+ font-size: 24px;
+ margin: 20px 0;
+ 
+}
+
+
+.hot4 .burgj .buga{
+ width: 300px;
+ height: 300px;
+ position: absolute;
+ bottom: -25px;
+ right: 45%;
+}
+.hot4 .burgj .buga img{
+ width: 350px;
+ height: 300px;
+ padding-top: 30px;
+ margin-right: 60px;
+ padding-right: -40px;
+ padding-left: 0;
+ margin-left: 0;
+}
+.hot4 .burgj p{
+  text-align: center;
+  margin: 20px 0;
+ }
+.part5{
 position: relative;
 width: 100%;
 padding-top: 0px;
@@ -297,4 +327,33 @@ color: #6CB840;
 .imglogo6{
   height: 50px;
 
+}
+.chat{
+  width: 100%;
+  margin-top: 10px;
+  font-size: 25px;
+  
+}
+.news{
+  
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 30%;
+}
+.imglogo6 button{
+  background: #6CB840;
+  color: white;
+  border: none;
+  font-size: 30px;
+  width: 60%;
+  
+  font-weight: bold;
+  height: 25px;
+  width: 80px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.fab fa-instagram{
+  height: 30px;
+  width: 50px;
 }
